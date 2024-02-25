@@ -26,27 +26,25 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          {/* <Partners /> */}
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="Crafting Unique and Engaging Websites" overTitle="Empowering Your Online Presence">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              Welcome to our web development agency, where we specialize in crafting unique and engaging websites that leave a lasting impression. Our team of experts is dedicated to understanding your business and delivering customized solutions that meet your needs.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="Our Approach to Web Design" overTitle="Innovative Solutions" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Our agency offers a comprehensive range of services tailored to meet your digital needs. From website development to mobile app design, we provide modern solutions that are both innovative and effective. Our team is committed to providing top-notch tech support, ensuring that your online presence runs smoothly and efficiently. Let us handle the technical aspects while you focus on growing your business.
             </p>
+
+
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Customized designs tailored to your brand</li>
+              <li>Responsive websites optimized for all devices</li>
+              <li>SEO-friendly strategies to boost your online visibility</li>
             </ul>
           </BasicSection>
+
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />

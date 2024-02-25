@@ -14,19 +14,19 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Empowering Your Digital Presence</CustomOverTitle>
+        <Heading>Transform Your Business with Our Expertise</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Elevate your online presence with our cutting-edge website development services. Our team of experts is dedicated to providing you with innovative solutions tailored to your needs. Whether you're a startup or an established business, we're here to help you succeed. Let us take care of the technical details while you focus on what you do best - running your business.
         </Description>
+
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            Subscribe to the Newsletter <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Discover Our Features <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>
@@ -35,6 +35,7 @@ export default function Hero() {
         <HeroIllustration />
       </ImageContainer>
     </HeroWrapper>
+
   );
 }
 
